@@ -1,0 +1,24 @@
+{
+    "name": "ForceSSL",
+    "description": "Automatically redirect all http requests to https. For security reasons it is recommended to always use Piwik Analaytics over https (SSL).",
+    "version": "3.0.0",
+    "theme": false,
+    "require": {
+        "piwik": ">=3.0.0-b1,<4.0.0"
+    },
+    "authors": [
+        {
+            "name": "InnoCraft",
+            "email": "contact@innocraft.com",
+            "homepage": "https://www.innocraft.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/innocraft/plugin-ForceSSL/issues",
+        "wiki": "https://github.com/innocraft/plugin-ForceSSL/wiki",
+        "source": "https://github.com/innocraft/plugin-ForceSSL"
+    },
+    "homepage": "https://www.innocraft.com",
+    "license": "GPL v3+",
+    "keywords": ["ssl", "certificate", "https", "analytics", "secure", "security", "privacy"]
+}
