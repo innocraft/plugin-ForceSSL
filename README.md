@@ -3,6 +3,9 @@
 ## Description
 
 When you activate this plugin, it will automatically redirect all "http://" requests to "https://" in the Piwik UI and API.
+It also makes sure that the generated tracking code will use HTTPS. This is especially useful if your tracking code is
+ embedded into your website automatically, for example via the WP-Piwik Wordpress plugin.
+
 For security and privacy reasons you should always use Piwik over HTTPS (SSL).
 
 Note: If SSL or HTTPS is not correctly configured on your server, activating this plugin may break your Piwik. In such 

@@ -10,6 +10,18 @@ namespace Piwik\Plugins\ForceSsl;
 
 class ForceSSL extends \Piwik\Plugin
 {
+    public function registerEvents()
+    {
+        return array(
+            'Piwik.getJavascriptCode' => 'forceSslInJsCode'
+        );
+    }
+
+    public function forceSslInJsCode(&$codeImpl, $parameters)
+    {
+        $codeImpl['protocol'] = 'https://';
+    }
+
     public function isTrackerPlugin()
     {
         true;
