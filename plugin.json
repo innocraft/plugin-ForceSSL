@@ -1,6 +1,6 @@
 {
     "name": "ForceSSL",
-    "description": "Automatically redirect all http requests to https. For security reasons it is recommended to always use Piwik Analaytics over https (SSL).",
+    "description": "Automatically redirect all http requests to https. For security reasons it is recommended to always use Piwik Analytics over https (SSL).",
     "version": "3.0.1",
     "theme": false,
     "require": {

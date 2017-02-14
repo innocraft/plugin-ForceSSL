@@ -14,3 +14,11 @@ In the same file there may be also a line `force_ssl = 1`. If you find such an e
  we recommend to remove this line from the config file.
 
 Any questions, feature wishes or problems? [Get in touch with us](https://www.innocraft.com), we are happy to help.
+
+### About InnoCraft
+
+We at [InnoCraft](https://www.innocraft.com) are the creators of Piwik and know it better than anyone else. 
+This means all plugins are perfectly integrated into Piwik and come with outstanding features and quality to grow 
+your business. We help our clients get started, configure, monitor and make the most of their Piwik analytics service. 
+We also offer unique analytics products and services that help grow your business and meet the needs of medium and large 
+businesses alike.
