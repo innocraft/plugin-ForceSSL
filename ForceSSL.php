@@ -13,7 +13,7 @@ class ForceSSL extends \Piwik\Plugin
     public function registerEvents()
     {
         return array(
-            'Piwik.getJavascriptCode' => 'forceSslInJsCode'
+            'Tracker.getJavascriptCode' => 'forceSslInJsCode'
         );
     }
 
