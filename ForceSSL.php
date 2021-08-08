@@ -24,6 +24,6 @@ class ForceSSL extends \Piwik\Plugin
 
     public function isTrackerPlugin()
     {
-        true;
+        return true;
     }
 }
