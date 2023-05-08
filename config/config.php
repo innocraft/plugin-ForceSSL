@@ -7,7 +7,7 @@
  */
 
 return array(
-    'Piwik\Config' => DI\decorate(function ($previous) {
+    'Piwik\Config' => \Piwik\DI::decorate(function ($previous) {
         $general = $previous->General;
         $general['force_ssl'] = 1;
         $previous->General = $general;
