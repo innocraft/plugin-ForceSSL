@@ -19,5 +19,6 @@
     },
     "homepage": "https://www.innocraft.com",
     "license": "GPL v3+",
-    "keywords": ["ssl", "certificate", "https", "analytics", "secure", "security", "privacy"]
+    "keywords": ["ssl", "certificate", "https", "analytics", "secure", "security", "privacy"],
+    "category": "security"
 }
