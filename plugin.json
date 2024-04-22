@@ -1,7 +1,7 @@
 {
     "name": "ForceSSL",
     "description": "Automatically redirect all http requests to https. For security reasons it is recommended to always use Matomo Analytics over https (SSL).",
-    "version": "5.0.0",
+    "version": "5.0.1",
     "theme": false,
     "require": {
         "matomo": ">=5.0.0-b1,<6.0.0-b1"
