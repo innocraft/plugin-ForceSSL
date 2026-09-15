@@ -1,0 +1,17 @@
+parameters:
+    level: 5
+    phpVersion: 80100
+    tmpDir: /tmp/phpstan/ForceSSL/main
+    paths:
+        - .
+    excludePaths:
+        analyseAndScan:
+            - tests/*
+    bootstrapFiles:
+        - ../../bootstrap-phpstan.php
+    universalObjectCratesClasses:
+        - Piwik\Config
+        - Piwik\View
+        - Piwik\ViewDataTable\Config
+    scanDirectories:
+        - ../../
